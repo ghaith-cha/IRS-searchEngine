@@ -1,0 +1,124 @@
+https://en.wikipedia.org/wiki/Guido_van_Rossum
+Dutch programmer and creator of Python
+In this Dutch name, the family name is van Rossum, not Rossum.
+Guido van Rossum
+Guido van Rossum at the Dropbox headquarters in 2014
+Born
+(1956-01-31) 31 January 1956 (age 63)[1]
+
+Haarlem, Netherlands[2][3]
+Nationality
+Dutch
+Alma mater
+University of Amsterdam
+Occupation
+Computer programmer, author
+Known for
+Creating the Python programming language
+Spouse(s)
+Kim Knapp (m. 2000)
+Children
+1[4]
+Awards
+Award for the Advancement of Free Software (2001)
+Website
+gvanrossum
+.github
+.io
+Guido van Rossum (Dutch: [ˈɣido vɑn ˈrɔsʏm, -səm]; born 31 January 1956) is a Dutch programmer best known as the author of the Python programming language, for which he was the "Benevolent dictator for life" (BDFL) until he stepped down from the position in July 2018.[5][6] He is currently a member of the Python Steering Council[7], however he has withdrawn from nominations for the 2020 Python Steering Council[8].
+Contents
+1 Life and education
+2 Work
+2.1 Python
+2.2 Computer Programming for Everybody
+2.3 Mondrian
+2.4 Dropbox
+3 Awards
+4 References
+5 External links
+Life and education[edit]
+Van Rossum was born and raised in the Netherlands, where he received a master's degree in mathematics and computer science from the University of Amsterdam in 1982. He has a brother, Just van Rossum, who is a type designer and programmer who designed the typeface used in the "Python Powered" logo.[9]
+Van Rossum lives in Belmont, California, with his wife, Kim Knapp,[10] and their son.[11][12][13] According to his home page and Dutch naming conventions, the "van" in his name is capitalized when he is referred to by surname alone, but not when using his first and last name together.[14]
+Work[edit]
+While working at the Centrum Wiskunde & Informatica (CWI), Van Rossum wrote and contributed a glob() routine to BSD Unix in 1986[15][16] and helped develop the ABC programming language. He once stated, "I try to mention ABC's influence because I'm indebted to everything I learned during that project and to the people who worked on it."[17] He also created Grail, an early web browser written in Python, and engaged in discussions about the HTML standard.[18]
+He has worked for various research institutes, including the Centrum Wiskunde & Informatica (CWI) in the Netherlands, the U.S. National Institute of Standards and Technology (NIST), and the Corporation for National Research Initiatives (CNRI). From 2000 until 2003 he worked for Zope corporation. In 2003 Van Rossum left Zope for Elemental Security. While there he worked on a custom programming language for the organization.[19] From 2005 to December 2012, he worked at Google, where he spent half of his time developing the Python language. In January 2013, he started working for Dropbox.[20] In October 2019 Van Rossum officially retired.
+Python[edit]
+Van Rossum at the 2008 Google I/O Developer's Conference
+Van Rossum at the 2006 O'Reilly Open Source Convention (OSCON)
+In December 1989, Van Rossum had been looking for a "'hobby' programming project that would keep [him] occupied during the week around Christmas" as his office was closed when he decided to write an interpreter for a "new scripting language [he] had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers". He attributes choosing the name "Python" to "being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus)".[21]
+He has explained that Python's predecessor, ABC, was inspired by SETL, noting that ABC co-developer Lambert Meertens had "spent a year with the SETL group at NYU before coming up with the final ABC design".[22]
+In July 2018, Van Rossum announced that he would be stepping down from the position of BDFL of the Python programming language.[23]
+Computer Programming for Everybody[edit]
+In 1999, Van Rossum submitted a funding proposal to DARPA called "Computer Programming for Everybody", in which he further defined his goals for Python:
+An easy and intuitive language just as powerful as major competitors
+Open source, so anyone can contribute to its development
+Code that is as understandable as plain English
+Suitability for everyday tasks, allowing for short development times
+Python has grown to become a popular programming language. In 2018, it was the third most popular language on GitHub, a social coding website, behind JavaScript and Java.[24] According to a programming language popularity survey[25] it is consistently amongst the top 10 most mentioned languages in job postings. Furthermore, Python is consistently[clarification needed] in the top 10 most popular languages according to the TIOBE Programming Community Index.[26]
+Mondrian[edit]
+Not to be confused with Mondrian (software), data visualisation software, or Mondrian OLAP server.
+At Google, Van Rossum developed Mondrian, a web-based code review system written in Python and used within the company. He named the software after the Dutch painter Piet Mondrian.[27] He named another related software project after Gerrit Rietveld, a Dutch designer.[28]
+Dropbox[edit]
+In 2013, Van Rossum started working at the cloud file storage company Dropbox.[29]
+In October 2019, Van Rossum left Dropbox and officially retired.[30]
+Awards[edit]
+At the 2002 FOSDEM conference in Brussels, Van Rossum received the 2001 Award for the Advancement of Free Software from the Free Software Foundation (FSF) for his work on Python.
+In May 2003, he received a NLUUG Award.[31]
+In 2006, he was recognized as a Distinguished Engineer by the Association for Computing Machinery.
+In 2018, he was made a Fellow of the Computer History museum.[32]
+In 2019, he was awarded the honorary title of Dijkstra Fellow by CWI.[33]
+References[edit]
+^ van Rossum, Guido (31 January 2007). "(Python-Dev) Happy Birthday, Guido!". Python-Dev mailing list. Archived from the original on 8 September 2009.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ "Old interview – Guido van Rossum". Archived from the original on 2 February 2014. Retrieved 28 January 2014. I only took some time to visit my family in Haarlem.
+^ "Schoolbank profile". Archived from the original on 19 February 2014. Retrieved 28 January 2014.
+^ "Guido van Rossum". CodeCall Programming Wiki. Archived from the original on 31 October 2008.
+^ "Benevolent dictator for life". Linux Format. 1 February 2005. Archived from the original on 1 October 2006. Retrieved 1 November 2007.
+^ "Transfer of power".
+^ "Guido van Rossum - Brief Bio". gvanrossum.github.io. Retrieved 24 May 2019.
+^ "Steering Council nomination: Guido van Rossum (2020 term)".
+^ Thomas, Jockin (28 May 2016). "Learning Python Makes You A Better Designer: An Interview with Just van Rossum". Medium. Retrieved 25 October 2019.
+^ Manheimer, Ken (6 June 2000). "(Python-Dev) Guido and Kim married". Python-Dev -- Python core developers. Archived from the original on 28 September 2010.
+^ "Guido van Rossum - Brief Bio". Archived from the original on 19 August 2014.
+^ "(Mailman-Announce) forwarded message from Guido van Rossum". Archived from the original on 27 May 2008. Oh, and to top it all off, I'm going on vacation. I'm getting married and will be relaxing on my honeymoon.
+^ van Rossum, Guido. "What's New in Python?" (PDF). "Not your usual list of new features". Stanford CSL Colloquium, 29 October 2003; BayPiggies, 13 November 2003. Elemental Security. Archived (PDF) from the original on 27 June 2010.
+^ van Rossum, Guido. "Guido's Personal Home Page". Retrieved 2 February 2018.
+^ "'Globbing' library routine". Archived from the original on 19 December 2007.
+^ "File::Glob - Perl extension for BSD glob routine". metacpan.org. Archived from the original on 7 August 2013.
+^ Venners, Bill. "The Making of Python". www.artima.com. Archived from the original on 1 September 2016. Retrieved 14 September 2016.
+^ "Re: xmosaic experience". Archived from the original on 28 August 2016.
+^ "2018 Museum Fellow Guido van Rossum, Python Creator & Benevolent Dictator for Life - Computer History Museum". Archived from the original on 24 July 2018. Retrieved 23 August 2018.
+^ Constine, Josh. "Dropbox Hires Away Google's Guido van Rossum, The Father Of Python". Techcrunch. Archived from the original on 9 December 2012. Retrieved 7 December 2012.
+^ "Foreword for "Programming Python" (1st ed.)". Archived from the original on 24 July 2014.
+^ "Python-Dev] SETL (was: Lukewarm about range literals)". Archived from the original on 14 May 2011.
+^ Fairchild, Carlie (12 July 2018). "Guido van Rossum Stepping Down from Role as Python's Benevolent Dictator For Life". Linux Journal. Archived from the original on 13 July 2018. Retrieved 12 July 2018.
+^ "Projects". The State of the Octoverse. Retrieved 9 April 2019.
+^ "Programming Language Popularity". Archived from the original on 12 April 2015.
+^ "TIOBE Programming Community Index for November 2011". November 2011. Archived from the original on 27 May 2012.
+^ van Rossum, Guido (May 2008). "An Open Source App: Rietveld Code Review Tool". Archived from the original on 17 October 2015. Retrieved 24 August 2012. ... the internal web app, which I code-named Mondrian after one of my favorite Dutch painters
+^ "An Open Source App: Rietveld Code Review Tool". Archived from the original on 17 October 2015.
+^ "Welcome Guido!". Dropbox Tech Blog. 7 December 2012. Archived from the original on 7 September 2013. Retrieved 6 September 2013.
+^ Rossum, Guido van (30 October 2019). "Leaving Dropbox and retiring". @gvanrossum. Retrieved 30 October 2019.
+^ "Guido van Rossum Ontvangt NLUUG Award". NLUUG. 28 May 2003. Retrieved 22 January 2018.
+^ "Guido van Rossum | Computer History Museum". www.computerhistory.org.
+^ "David Chaum and Guido van Rossum awarded Dijkstra Fellowship".
+External links[edit]
+Free and open-source software portal
+Wikimedia Commons has media related to Guido van Rossum.
+Official website
+The History of Python Guido's blog on the History of Python and design decisions
+Computer Programming for Everybody
+Interview with Guido van Rossum on FLOSS Weekly
+Guido van Rossum Guido's interview on Workspiration
+Computerworld Interview with Guido van Rossum on Python
+Google App Engine — Run your web applications on Google's infrastructure — technical talk on Google App Engine given by Guido van Rossum at Stanford University. (online video archive)
+Authority control
+ACM DL: 81341495956
+CiNii: DA10288481
+DBLP: r/GvRossum
+GND: 1067604243
+ISNI: 0000 0000 3539 3853
+LCCN: n96080557
+NTA: 073634204
+VIAF: 28799390
+WorldCat Identities (via VIAF): 28799390

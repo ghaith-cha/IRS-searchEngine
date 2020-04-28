@@ -1,0 +1,97 @@
+https://en.wikipedia.org/wiki/MicroPython
+MicroPython
+Original author(s)
+Damien P. George
+Initial release
+3 May 2014; 5 years ago (2014-05-03)
+Stable release
+1.12 / 20 December 2019; 18 days ago (2019-12-20)
+Repository
+github
+.com
+/micropython
+/micropython
+Written in
+C
+Platform
+ARM Cortex-M, ESP8266, ESP32, 16bit PIC, Unix, Microsoft Windows, Zephyr, JavaScript
+Type
+Python implementation
+License
+MIT license[1]
+Website
+micropython
+.org
+MicroPython[2] is a software implementation of a programming language largely compatible with Python 3, written in C, that is optimized to run on a microcontroller.[3][4]
+MicroPython is a full Python compiler and runtime that runs on the micro-controller hardware. The user is presented with an interactive prompt (the REPL) to execute supported commands immediately. Included are a selection of core Python libraries; MicroPython includes modules which give the programmer access to low-level hardware.[2]
+The source code for the project is available on GitHub under the MIT License.[5]
+Contents
+1 History
+2 Bytecode
+3 References
+4 External links
+History[edit]
+MicroPython was originally created by the Australian programmer and physicist Damien George, after a successful Kickstarter backed campaign in 2013.[6] While the original Kickstarter campaign released MicroPython with an STM32F4-powered development board "pyboard", MicroPython supports a number of ARM based architectures.[7] The ports supported in the mainline are ARM Cortex-M(many STM32 boards, TI CC3200/WiPy, Teensy boards, Nordic nRF series, SAMD21 and SAMD51), ESP8266, ESP32, 16bit PIC, Unix, Windows, Zephyr, and JavaScript.[8] Also, there are many forks for a variety of systems and hardware platforms not supported in the mainline. [9]
+In 2016 a version of MicroPython for the BBC Micro Bit was created as part of the Python Software Foundation's contribution to the Micro Bit partnership with the BBC.[10]
+In July 2017, MicroPython was forked to create CircuitPython, a version of MicroPython with emphasis on education and ease of use. MicroPython and CircuitPython support somewhat different sets of hardware (e.g. CircuitPython supports Atmel SAM D21 and D51 boards, but dropped support for ESP8266). As of version 4.0, CircuitPython is based on MicroPython version 1.9.4.[11]
+In 2017, Microsemi made a MicroPython port for RISC-V (RV32 and RV64) architecture.[12]
+Bytecode[edit]
+MicroPython includes a cross compiler which generates MicroPython bytecode (file extension .mpy). The Python code can be compiled into the bytecode either directly on a microcontroller or it can be precompiled elsewhere.
+MicroPython firmware can be built without the compiler, leaving only the virtual machine which can run the precompiled mpy programs.
+References[edit]
+^ George, Damien P. (4 May 2014). "micropython/LICENSE at master · micropython/micropython". GitHub. Retrieved 11 February 2017.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ a b "MicroPython - Python for microcontrollers". micropython.org. Retrieved 12 August 2017.
+^ Venkataramanan, Madhumita (6 December 2013). "Micro Python: more powerful than Arduino, simpler than the Raspberry Pi". Wired. Retrieved 15 December 2016.
+^ Yegulalp, Serdar (5 July 2014). "Micro Python's tiny circuits: Python variant targets microcontrollers". InfoWorld. Retrieved 15 December 2016.
+^ "MicroPython on GitHub".
+^ "Micro Python: Python for microcontrollers". Kickstarter. Kickstarter. Retrieved 15 December 2016.
+^ Beningo, Jacob (11 July 2016). "Prototype to production: MicroPython under the hood". EDN Network. Retrieved 15 December 2016.
+^ George, Damien P. "micropython/ports at master · micropython/micropython". GitHub. Retrieved 22 October 2019.
+^ Sokolovsky, Paul. "Awesome MicroPython". GitHub. Retrieved 22 October 2019.
+^ Williams, Alun. "Hands on with the BBC Micro-Bit user interface". ElectronicsWeekly.com. Retrieved 8 July 2015.
+^ Shawcroft, Scott. "CircuitPython 4.0.1 released!". Adafruit Blog. Adafruit Industries. Retrieved 11 Jun 2019.
+^ "RISC-V Poster Preview — 7th RISC-V Workshop" (PDF). 28 November 2017. Retrieved 17 December 2018.
+External links[edit]
+Official website
+micropython on GitHub
+GOTO 2016 • MicroPython & the Internet of Things • Damien George on YouTube
+MicroPython playlist on YouTube • Tutorials by Tony DiCola / Adafruit
+v
+t
+e
+Python
+Implementations
+CircuitPython
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+IDE
+Boa
+Eric Python IDE
+IDLE
+PyCharm
+PyDev
+SPE
+Ninja-IDE
+more...
+Topics
+WSGI
+software (list)
+Python Software Foundation
+PyCon
+This programming-language-related article is a stub. You can help Wikipedia by expanding it.
+v
+t
+e

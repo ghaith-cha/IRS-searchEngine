@@ -1,0 +1,89 @@
+https://en.wikipedia.org/wiki/Python_Software_Foundation
+Python Software Foundation
+Abbreviation
+PSF
+Formation
+March 6, 2001
+Type
+501(c)(3) nonprofit organization
+Purpose
+Promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers[1]
+Headquarters
+Delaware, United States
+Region served
+Worldwide
+Official language
+English
+President
+Guido van Rossum
+Chairperson
+Naomi Ceder
+Revenue
+.mw-parser-output .nobold{font-weight:normal}
+(2015)
+$2.9 million[2]
+Website
+www
+.python
+.org
+/psf-landing
+/
+The Python Software Foundation (PSF) is a nonprofit organization devoted to the Python programming language,[3] launched on March 6, 2001. The mission of the foundation is to foster development of the Python community and is responsible for various processes within the Python community, including developing the core Python distribution, managing intellectual rights, developer conferences including PyCon, and raising funds.
+In 2005, the Python Software Foundation received the Computerworld Horizon Award for "cutting-edge" technology.[4][5]
+Contents
+1 Code of Conduct
+2 See also
+3 Notes
+4 External links
+Code of Conduct[edit]
+Since late 2012, the Python Software Foundation started recommending that all Python conferences create and apply a Code of Conduct. This is mandatory to any event to be granted funds by the PSF.[6]
+See also[edit]
+PyLadies
+Notes[edit]
+^ "Mission". Python Software Foundation. Retrieved 28 March 2018.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ "GuideStar report for Python Software Foundation". GuideStar. GuideStar. Retrieved 28 March 2018.
+^ Deibel, Stephan (March 2008). "Executive Summary: The Python Software Foundation". Retrieved 2016-10-05.
+^ "Python Software Foundation Wins Computerworld Horizon Award for Popular Python Programming Language" (Press release). 2005-09-15. Archived from the original on 2015-05-01. Retrieved 2016-10-05.
+^ "Computerworld Horizon Awards 2005 Honorees". Computerworld. 2005-09-12. Archived from the original on 2019-07-31. Retrieved 2016-10-05.
+^ Endsley, Rikki. "7 open source projects to cut your teeth on (and the ones to avoid)". IT World. Retrieved 17 June 2017.
+External links[edit]
+Python Software Foundation
+v
+t
+e
+Python
+Implementations
+CircuitPython
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+IDE
+Boa
+Eric Python IDE
+IDLE
+PyCharm
+PyDev
+SPE
+Ninja-IDE
+more...
+Topics
+WSGI
+software (list)
+Python Software Foundation
+PyCon
+This organization-related article is a stub. You can help Wikipedia by expanding it.
+v
+t
+e

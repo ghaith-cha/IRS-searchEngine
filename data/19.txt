@@ -1,0 +1,100 @@
+https://en.wikipedia.org/wiki/Stackless_Python
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (December 2017) (Learn how and when to remove this template message)
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Stackless Python" – news · newspapers · books · scholar · JSTOR (March 2013) (Learn how and when to remove this template message)
+(Learn how and when to remove this template message)
+Stackless Python
+Original author(s)
+Christian Tismer
+Developer(s)
+Anselm Kruis
+Initial release
+1998; 22 years ago (1998)
+Stable release
+3.7.4-slp, 3.6.9-slp, 2.7.16-slp / August 4, 2019; 5 months ago (2019-08-04)
+Preview release
+3.8.0b3[1]
+Repository
+github
+.com
+/stackless-dev
+/stackless
+Written in
+C, Python
+Operating system
+Linux, Windows
+Type
+Interpreter
+License
+Python Software Foundation License
+Website
+http://www.stackless.com
+Stackless Python, or Stackless, is a Python programming language interpreter, so named because it avoids depending on the C call stack for its own stack. In practice, Stackless Python uses the C stack, but the stack is cleared between function calls.[2] The most prominent feature of Stackless is microthreads, which avoid much of the overhead associated with usual operating system threads. In addition to Python features, Stackless also adds support for coroutines, communication channels and task serialization.
+Contents
+1 Design
+2 Use
+3 See also
+4 References
+5 External links
+Design[edit]
+With Stackless Python, a running program is split into microthreads that are managed by the language interpreter itself, not the operating system kernel—context switching and task scheduling is done purely in the interpreter (these are thus also regarded as a form of green thread). Microthreads manage the execution of different subtasks in a program on the same CPU core. Thus, they are an alternative to event-based asynchronous programming and also avoid the overhead of using separate threads for single-core programs (because no mode switching between user mode and kernel mode needs to be done, so CPU usage can be reduced).
+Although microthreads make it easier to deal with running subtasks on a single core, Stackless Python does not remove Python's Global Interpreter Lock, nor does it use multiple threads and/or processes. So it allows only cooperative multitasking on a shared CPU and not parallelism (preemption was originally not available but is now in some form[3]). To use multiple CPU cores, one would still need to build an interprocess communication system on top of Stackless Python processes.
+Due to the considerable number of changes in the source, Stackless Python cannot be installed on a preexisting Python installation as an extension or library. It is instead a complete Python distribution in itself. The majority of Stackless's features have also been implemented in PyPy, a self-hosting Python interpreter and JIT compiler.[4]
+Use[edit]
+Although the whole Stackless is a separate distribution, its switching functionality has been successfully packaged as a CPython extension called greenlet.[5] It is used by a number of libraries (e.g. gevent[6]) to provide a green threading solution for CPython. Python since has received a native solution for green threads: await/async.
+Stackless is used extensively in the implementation of the Eve Online massively multiplayer online game as well as in IronPort's mail platform.
+See also[edit]
+Free and open-source software portal
+Erlang (programming language)
+Limbo (programming language)
+Go (programming language)
+SCOOP (software)
+References[edit]
+^ The Stackless Python programming language, Stackless Python, 2019-11-14, retrieved 2019-11-14
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ https://www.youtube.com/watch?v=pDkrkP0yf70
+^ "About Stackless". Retrieved 26 August 2016. a round robin scheduler is built in. It can be used to schedule tasklets either cooperatively or preemptively.
+^ "Application-level Stackless features — PyPy documentation". pypy.readthedocs.org.
+^ "greenlet: Lightweight concurrent programming — greenlet 0.4.0 documentation". greenlet.readthedocs.org.
+^ "What is gevent? — gevent 1.3.0.dev0 documentation". www.gevent.org.
+External links[edit]
+Official website
+Stackless Python Documentation for: 3.7-slp, 3.6-slp, 3.5-slp, 3.4-slp, 2.7-slp
+stackless on GitHub
+Multithreaded Game Scripting with Stackless Python by Harry Kalogirou
+Continuations and Stackless Python by Christian Tismer
+v
+t
+e
+Python
+Implementations
+CircuitPython
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+IDE
+Boa
+Eric Python IDE
+IDLE
+PyCharm
+PyDev
+SPE
+Ninja-IDE
+more...
+Topics
+WSGI
+software (list)
+Python Software Foundation
+PyCon

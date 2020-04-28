@@ -1,0 +1,99 @@
+https://en.wikipedia.org/wiki/CircuitPython
+CircuitPython
+Original author(s)
+Adafruit Industries
+Initial release
+July 19, 2017; 2 years ago (2017-07-19)[1]
+Stable release
+4.0.1 / May 22, 2019; 7 months ago (2019-05-22)[2]
+Repository
+https://github.com/adafruit/circuitpython
+Written in
+C[3]
+Platform
+microcontroller boards using the Atmel SAMD21, Atmel SAMD51, Nordic nRF52840, and ESP8266 microcontrollers, from Adafruit, SparkFun, Arduino, Particle, and others
+Type
+Python implementation
+License
+MIT license[4]
+Website
+circuitpython
+.org
+CircuitPython[5] is an open source derivative of the MicroPython programming language targeted towards the student and beginner. Development of CircuitPython is supported by Adafruit Industries. It is a software implementation of the Python 3 programming language, written in C.[3] It has been ported to run on several modern microcontrollers.
+CircuitPython is a full Python compiler and runtime that runs on the microcontroller hardware. The user is presented with an interactive prompt (the REPL) to execute supported commands immediately. Included are a selection of core Python libraries. CircuitPython includes modules which give the programmer access to the low-level hardware of Adafruit compatible products as well as higher level libraries for beginners.[6]
+CircuitPython is a fork of MicroPython, originally created by Damien George.[7] The MicroPython community continues to discuss[8] forks of MicroPython into variants such as CircuitPython.
+CircuitPython is targeted to be compliant with CPython, the reference implementation of the Python programming language.[9] Programs written for CircuitPython compatible boards may not run unmodified on other platforms such as the Raspberry Pi.[10]
+Contents
+1 Usage
+2 Community
+3 Availability
+4 References
+5 External links
+Usage[edit]
+CircuitPython is being used where in the past the code may have been done in the Arduino development environment.[11][failed verification] The language has also seen uptake in making small, handheld video game devices.[12][better source needed] Developer Chris Young has ported his infrared receive/transmit software to CircuitPython to provide interactivity and to aid those with accessibility issues.[13]
+Community[edit]
+The user community support includes a Discord chat room and product support forums.[14] A Twitter account dedicated to CircuitPython news was established in 2018.[15]
+Availability[edit]
+The current stable version is 4.0.1 with support for the Microchip Technology Atmel SAMD21 and SAMD51 microcontrollers[16] and the Nordic Semiconductor nRF52840 microcontroller. Previous versions supported the ESP8266 microcontroller, but support was dropped in version 4.[17]
+References[edit]
+^ Shawcroft, Scott. "CircuitPython 1.0.0!". Adafruit Blog. Adafruit Industries. Retrieved 1 May 2018.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ Shawcroft, Scott. "CircuitPython 4.0.1 released!". Adafruit Blog. Adafruit Industries. Retrieved 11 Jun 2019.
+^ a b "adafruit/circuitpython". GitHub. Adafruit Industries. Retrieved 2 May 2018.
+^ George, Damien P. (4 May 2014). "circuitpython/LICENSE". GitHub. Retrieved 1 May 2018.
+^ "CircuitPython is an education friendly open source derivative of MicroPython". Retrieved 30 April 2018.
+^ "CircuitPython". Read the Docs. Adafruit Industries. Retrieved 1 May 2018.
+^ George, Damien (20 May 2016). "Damien P. George". Damien P. George. Retrieved 1 May 2018.
+^ "Adafruit CircuitPython". MicroPython Forum. MicroPython.org. Retrieved 2 May 2018.
+^ Lewis, James. "Circuit Python adds Python to Microcontrollers". The Bald Engineer. Retrieved 2 May 2018.
+^ Ganne, Simon. "Can I use circuitPython code on my raspberry?". Element 14 Community. Element 14.
+^ Cass, Stephen. "Build an Illuminated Halloween Costume With the Wearable Gemma M0 Microcontroller". IEEE Spectrum. IEEE. Retrieved 2 May 2018.
+^ Dopieralski, Radomir. "CircuitPython LAMEBOY". BitBucket. BitBucket. Retrieved 2 May 2018.
+^ Young, Chris (6 June 2018). "Announcing IRLibCP — a Circuit Python Module for Infrared Transmitting and Receiving". CY's Tech Talk. Chris Young. Retrieved 2 May 2018.
+^ "Adafruit CircuitPython and MicroPython". Adafruit Support Forums. Adafruit Industries. Retrieved 1 May 2018.
+^ "CircuitPython". Twitter. Adfafruit Industries. Retrieved 1 May 2018.
+^ Kraft, Caleb. "CircuitPython Snakes its Way onto Adafruit Hardware". Makezine. Maker Media, Inc. Retrieved 2 May 2018.
+^ "Why are we dropping support for ESP8266?". Adafruit.com. Adafruit Industries. Retrieved 15 April 2019.
+External links[edit]
+CircuitPython on GitHub
+MicroPython playlist on YouTube • Tutorials by Tony DiCola / Adafruit
+v
+t
+e
+Python
+Implementations
+CircuitPython
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+IDE
+Boa
+Eric Python IDE
+IDLE
+PyCharm
+PyDev
+SPE
+Ninja-IDE
+more...
+Topics
+WSGI
+software (list)
+Python Software Foundation
+PyCon
+
+
+This software article is a stub. You can help Wikipedia by expanding it.
+v
+t
+e

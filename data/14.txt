@@ -1,0 +1,147 @@
+https://en.wikipedia.org/wiki/Python_Software_Foundation_License
+Python Software Foundation License
+DFSG compatible
+Yes
+FSF approved
+Yes[1]
+OSI approved
+Yes
+GPL compatible
+Yes[1]
+Copyleft
+No
+Guido van Rossum
+The Python Software Foundation License (PSFL) is a BSD-style, permissive free software license which is compatible with the GNU General Public License (GPL).[1] Its primary use is for distribution of the Python project software. Unlike the GPL the Python license is not a copyleft license, and allows modified versions to be distributed without source code. The PSFL is listed as approved on both FSF's approved licenses list,[1] and OSI's approved licenses list.
+In 2000, Python was briefly available under the Python License, which is incompatible with the GPL. The reason given for this incompatibility by Free Software Foundation was that "this Python license is governed by the laws of the 'State of Virginia', in the USA", which the GPL does not permit.[2]
+Guido van Rossum, Python's creator, was awarded the 2001 Free Software Foundation Award for the Advancement of Free Software[3] for changing the license to fix this incompatibility.
+See also[edit]
+Free and open-source software portal
+Software using the PSF license (category)
+References[edit]
+^ a b c d Stallman, Richard. "Various Licenses and Comments about Them, new Python license". Free Software Foundation. Retrieved 2007-07-07.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ Stallman, Richard. "Various Licenses and Comments about Them, old Python license". Free Software Foundation. Retrieved 2007-07-07.
+^ "2001 Free Software Awards". GNU Project - Free Software Foundation. Retrieved 2007-07-07.
+External links[edit]
+The Python Software Foundation License
+v
+t
+e
+Free and open-source software
+General
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source-code-hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+Software
+packages
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+Graphics
+Wireless
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+Content management systems
+E-commerce
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+Formerly open-source
+Community
+Free software movement
+History
+Open-source-software movement
+Organizations
+Events
+Licenses
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+GNU GPL
+GNU LGPL
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+Types and
+standards
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software license
+Public domain
+Viral license
+Challenges
+Digital rights management
+Firmware security
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary device drivers
+Proprietary firmware
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+Related topics
+Forking
+GNU Manifesto
+Microsoft Open Specification Promise
+Open-core model
+Open-source hardware
+Shared Source Initiative
+Source-available software
+The Cathedral and the Bazaar
+Revolution OS
+Free and open-source software portal
+Category
+Commons
+WikiProject
+Book
+This software-engineering-related article is a stub. You can help Wikipedia by expanding it.
+v
+t
+e

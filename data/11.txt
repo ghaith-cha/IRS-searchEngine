@@ -1,0 +1,59 @@
+https://en.wikipedia.org/wiki/Duck_typing
+A style of dynamic typing in object oriented programming
+Type systems
+General concepts
+Type safety
+Major categories
+Static vs. dynamic
+Manifest vs. inferred
+Nominal vs. structural
+Duck typing
+Minor categories
+Dependent
+Flow-sensitive
+Gradual
+Intersection
+Latent
+Refinement
+Substructural
+Unique
+See also
+Strong and weak typing
+Duck typing in computer programming is an application of the duck test—"If it walks like a duck and it quacks like a duck, then it must be a duck"—to determine if an object can be used for a particular purpose. With normal typing, suitability is determined by an object's type. In duck typing, an object's suitability is determined by the presence of certain methods and properties, rather than the type of the object itself.[1]
+Contents
+1 Example
+2 In statically typed languages
+3 Comparison with other type systems
+3.1 Structural type systems
+3.2 Protocols and Interfaces
+3.3 Templates or generic types
+4 See also
+5 References
+Example[edit]
+This is a simple example in Python 3 that demonstrates how any object may be used in any context, up until it is used in a way that it does not support.
+class Duck: def fly(self): print("Duck flying") class Sparrow: def fly(self): print("Sparrow flying") class Whale: def swim(self): print("Whale swimming") for animal in Duck(), Sparrow(), Whale(): animal.fly()
+Output:
+Duck flying Sparrow flying AttributeError: 'Whale' object has no attribute 'fly'
+In statically typed languages[edit]
+Certain mostly statically typed languages such as C# 4+ and Boo have features[2] [3] that instruct the compiler to arrange for type checking of classes to occur at run-time rather than compile time, and include run-time type checking code in the compiled output.
+Comparison with other type systems[edit]
+Structural type systems[edit]
+Duck typing is similar to, but distinct from structural typing. Structural typing is a static typing system that determines type compatibility and equivalence by a type's structure, whereas duck typing is dynamic and determines type compatibility by only that part of a type's structure that is accessed during run time.
+The TypeScript[4] , OCaml, Scala, Go, Elm[5], Gosu and PureScript languages support structural typing to varying degrees.
+Protocols and Interfaces[edit]
+Protocols and interfaces can provide some of the benefits of duck typing, but duck typing is distinct in that no explicit interface is defined. For example, if a third party library implements a class that cannot be modified, a client cannot use an instance of it with an interface unknown to that library even if the class does, in fact, satisfy the interface requirements. (A common solution to this problem is the Adapter pattern.) Duck typing would allow this. Again, all of an interface must be satisfied for compatibility.
+Templates or generic types[edit]
+Template, or generic functions or methods apply the duck test in a static typing context; this brings all the advantages and disadvantages of static versus dynamic type checking in general. Duck typing can also be more flexible in that only the methods actually called at runtime need to be implemented, while templates require implementation of all methods that cannot be proven unreachable at compile time.
+Examples include the languages C++ and D with templates, which developed from Ada generics.
+See also[edit]
+Extension methods
+UFCS
+Loose coupling
+Monkey patch
+References[edit]
+^ "Glossary — Python 3.7.1 documentation". docs.python.org. Retrieved 2018-11-08.
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ Boo: Duck Typing Archived October 6, 2008, at the Wayback Machine
+^ "Anders Hejlsberg Introduces C# 4.0 at PDC 2008". Retrieved 30 January 2017.
+^ "SE Radio Episode 384: Boris Cherny on TypeScript". se-radio.net. Retrieved 2019-10-25.
+^ Czaplicki, Evan. "Core Language · An Introduction to Elm". Retrieved 30 January 2017.

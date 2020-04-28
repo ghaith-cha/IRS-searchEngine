@@ -1,0 +1,28 @@
+https://en.wikipedia.org/wiki/Programming_language_implementation
+This article does not cite any sources. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Programming language implementation" – news · newspapers · books · scholar · JSTOR (December 2009) (Learn how and when to remove this template message)
+A programming language implementation is a system for executing computer programs.
+There are two general approaches to programming language implementation:
+Interpretation: An interpreter takes as input a program in some language, and performs the actions written in that language on some machine.
+Compilation: A compiler takes as input a program in some language, and translates that program into some other language, which may serve as input to another interpreter or another compiler.
+Notice that a compiler does not directly execute the program. Ultimately, in order to execute a program via compilation, it must be translated into a form that can serve as input to an interpreter or directly to hardware.
+When a piece of computer hardware can interpret a programming language directly, that language is called machine code. A so-called native code compiler is one that compiles a program into machine code. Actual compilation is often separated into multiple passes, like code generation (often for assembler language), translator (generating native code), linking, loading and execution.
+If a compiler of a given high level language produces another high level language, it is called translator (source to source translation), which is often useful to add extensions to existing languages or to exploit good and portable implementation of other language (for example C), simplifying development.
+Many combinations of interpretation and compilation are possible, and many modern programming language implementations include elements of both. For example, the Smalltalk programming language is conventionally implemented by compilation into bytecode, which is then either interpreted or compiled by a virtual machine (most popular ways is to use JIT or AOT compiler compilation[citation needed]). This implementation strategy has been copied by many languages since Smalltalk pioneered it.[citation needed]
+Abstract machines[edit]
+Every programming language requires abstract machines that bridge the gap between the high level language and the low level of a real machine.[citation needed]
+Abstract machines for object-oriented programming languages. These are basically stack based machines to access data and method of program.
+Abstract machines for string processing
+Abstract machines for functional programming languages
+Abstract machines for logic programming languages. These are based on predicate calculus.
+See also[edit]
+Compiler construction
+Functional compiler
+External links[edit]
+Media related to Compiling and linking at Wikimedia Commons
+
+
+This programming-language-related article is a stub. You can help Wikipedia by expanding it.
+v
+t
+e

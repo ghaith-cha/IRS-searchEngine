@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block head %}
+	<link rel = "stylesheet" type="text/css" href = "/static/css/main.css">
+	<title>
+		IRS PROJECT
+	</title>
+{% endblock %}
+{% block body %}
+	<img src="/static/2020.jpg" style = "padding: 1em;position: absolute;top: 30%;left: 50%;margin-right: -50%;transform: translate(-50%, -50%);"></img>
+	<form name = "passing" action = "." method = "POST">
+		<input type="text" name = "input" class = "txt"><br>
+		<input type="submit" value="search" class = "btn"><br>
+	</form>
+{% endblock %}

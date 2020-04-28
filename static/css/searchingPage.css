@@ -1,0 +1,26 @@
+.txt{
+    margin-top : 30px;
+    margin-left : 100px;
+    width:500px;
+    border-radius: 1em;
+    padding: 1em; 
+    height:10px;
+}
+.btn{
+    border-radius: 0.4em;
+    padding: 1em; 
+    height:30px;
+    width:70px;
+    margin-right: -50%;
+    margin-top : 30px;
+    text-align: center;
+    line-height: 0px;
+}
+.p1{
+    margin-top : 30px; 
+    margin-left : 100px;
+}
+.p2{
+    margin-left : 120px;
+    margin-top : 30px;
+}

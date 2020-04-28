@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block head %}
+    <link rel = "stylesheet" type="text/css" href = "/static/css/searchingPage.css">
+    <script src="static/js/pagination.js"></script>
+    <title>
+        {{value}} -Search
+    </title>
+{% endblock %}
+{% block body %}
+    <div>
+        <form name = "passing" action = "." method = "POST">
+            <input type="text" name = "input" value = {{value}} class = "txt">
+            <input type="submit" value="search" class = "btn"><br>
+        </form>
+    </div>
+    {% if didumean|length %}
+            <div>
+                <p class = "p1"> Did you Mean 
+                    <a href={{didumean}}>
+                        {{didumean}}
+                    </a> ?
+                </p><br>
+            </div>
+    {% endif %}
+    {% for x in search %}
+            {% if x != "null" and x|length %}
+                <div>
+                    <p class = "p1">
+                        <a href={{x|replace('\\n','')|replace('"','')}}>
+                            {{x|replace('\\n','')|replace('"','')}}
+                        </a> 
+                    </p><br>
+                </div>
+            {% endif %}
+    {% endfor %}
+{% endblock %}

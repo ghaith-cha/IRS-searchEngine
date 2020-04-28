@@ -1,0 +1,144 @@
+https://en.wikipedia.org/wiki/PyPy
+Alternative implementation of the Python programming language
+Not to be confused with PyPI, the Python official third-party software repository.
+PyPy
+Initial release
+mid 2007; 13 years ago (2007)
+Stable release
+7.3.0 / 24 December 2019; 14 days ago (2019-12-24)[1]
+Repository
+bitbucket
+.org
+/pypy
+/pypy
+Written in
+RPython
+Operating system
+Cross-platform
+Type
+Python interpreter and compiler toolchain
+License
+MIT
+Website
+pypy
+.org
+PyPy is an alternative implementation of the Python programming language[2] to CPython (which is the standard implementation). PyPy often runs faster than CPython because PyPy is a just-in-time compiler while CPython is an interpreter[3]. Most Python code runs well on PyPy except for code that depends on CPython extensions, which either doesn't work or incurs some overhead when run in PyPy. Internally, PyPy uses a technique known as meta-tracing, which transforms an interpreter into a tracing just-in-time compiler. Since interpreters are usually easier to write than compilers, but run slower, this technique can make it easier to produce efficient implementations of programming languages. PyPy's meta-tracing toolchain is called RPython.
+Contents
+1 Details and motivation
+1.1 RPython
+2 Project status
+2.1 History
+2.2 Funding
+3 See also
+4 Notes
+5 References
+6 External links
+Details and motivation[edit]
+PyPy was conceived to be an implementation of Python written in a programming language that is similar to Python. This makes it easy to identify areas where it can be improved and makes PyPy more flexible and easier to experiment with than CPython.[citation needed]
+PyPy aims to provide a common translation and support framework for producing implementations of dynamic languages, emphasizing a clean separation between language specification and implementation aspects. It also aims to provide a compliant, flexible and fast implementation of the Python programming language using the above framework to enable new advanced features without having to encode low level details into it.[4][5]
+RPython[edit]
+The PyPy interpreter itself is written in a restricted subset of Python called RPython (Restricted Python).[6] RPython puts some constraints on the Python language such that a variable's type can be inferred at compile time.[7]
+The PyPy project has developed a toolchain that analyzes RPython code and translates it into a form of byte code, together with an interpreter written in the C programming language. Much of this code is then compiled into machine code, and the byte code runs on the compiled interpreter.
+It allows for pluggable garbage collectors, as well as optionally enabling Stackless Python features. Finally, it includes a just-in-time (JIT) generator that builds a just-in-time compiler into the interpreter, given a few annotations in the interpreter source code. The generated JIT compiler is a tracing JIT.[8]
+RPython is now also used to write non-Python language implementations such as Pixie.[9]
+Project status[edit]
+PyPy is compatible with CPython 2.7.13.[10] PyPy3, released starting with version 2.3.1,[11] is compatible with CPython 3.6.9.[10] Both versions have JIT compilation support on 32-bit/64-bit x86 and 32-bit/64-bit ARM processors.[12] It is tested nightly on Windows, Linux, OpenBSD and Mac OS X. PyPy is able to run pure Python software that does not rely on implementation-specific features.[13]
+There is a compatibility layer for CPython C API extensions called CPyExt, but it is incomplete and experimental. The preferred way of interfacing with C shared libraries is through the built-in C foreign function interface (CFFI) or ctypes libraries.
+History[edit]
+PyPy is a followup to the Psyco project, a just-in-time specializing compiler for Python, developed by Armin Rigo between 2002 and 2010. PyPy's aim is to have a just-in-time specializing compiler with scope, which was not available for Psyco.[clarification needed] Initially, the RPython could also be compiled into Java bytecode, CIL and JavaScript, but these backends were removed due to lack of interest.
+PyPy was initially a research and development-oriented project. Reaching a mature state of development and an official 1.0 release in mid-2007, its next focus was on releasing a production-ready version with more CPython compatibility. Many of PyPy's changes have been made during coding sprints.
+In August 2008, PyPy was able to run some popular Python libraries like Pylons,[14] Pyglet,[15] Nevow[16] and Django.[17]
+On 12 March 2010, PyPy 1.2 was released, focusing on speed. It included a working, though not yet stable, just-in-time compiler.[18]
+On 30 April 2011, PyPy version 1.5 was released, which reached compatibility with CPython 2.7.[19]
+On 9 May 2013, PyPy 2.0 was released, which introduced alpha-quality support for JIT compilation on ARMv6 and ARMv7 JIT, and included CFFI in the standard library.[20][21]
+On 20 June 2014, PyPy3 was declared stable[11] and introduced compatibility with the more modern Python 3. It was released alongside PyPy 2.3.1 and bears the same version number.
+On 21 March 2017, the PyPy project released version 5.7 of both PyPy and PyPy3, with the latter introducing beta-quality support for Python 3.5.[22]
+On 26 April 2018, version 6.0 was released.[23]
+Funding[edit]
+PyPy was funded by the European Union being a Specific Targeted Research Project[24] between December 2004 and March 2007. In June 2008, PyPy announced funding being part of the Google Open Source programs and has agreed to focus on making PyPy more compatible with CPython. In 2009 Eurostars, a European Union funding agency specially focused on SMEs,[25] accepted a proposal from PyPy project members titled "PYJIT – a fast and flexible toolkit for dynamic programming languages based on PyPy". Eurostars funding lasted until August 2011.[26] At PyCon US 2011, the Python Software Foundation provided a $10,000 grant for PyPy to continue work on performance and compatibility with newer versions of the language.[27] The port to ARM architecture was sponsored in part by the Raspberry Pi Foundation.[20]
+The PyPy project also accepts donations through its status blog pages.[28] There are three funding projects currently in progress: Python 3 version compatibility, built-in optimized NumPy support for numerical calculations and software transactional memory support to allow better parallelism.[20]
+See also[edit]
+Free software portal
+Computer programming portal
+Bootstrapping (compilers)
+Cython
+GraalVM
+Partial evaluation
+Psyco
+Self-hosting
+Self-interpreter
+Unladen Swallow
+Notes[edit]
+^ "PyPy Status Blog". Retrieved January 4 2020. Check date values in: |accessdate= (help)
+.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+^ "Interview Maciej Fijalkowski PyPy".
+^ "PyPy Speed". speed.pypy.org. Retrieved 2019-12-01.
+^ Samuele Pedroni (March 2007). "PyPy – Goals and Architecture Overview". Archived from the original on 2012-06-30.
+^ "PyPy – Goals and Architecture Overview – Mission Statement". Retrieved 11 October 2013.
+^ Our runtime interpreter is “RPython”, Coding Guide – PyPy documentation
+^ "It is a proper subset of Python, restricted in a way that enables easy analysis and efficient code generation", Ancona et al., 2007.
+^ Bolz, Carl; Cuni, Antonio; Fijalkowski, Maciej; Rigo, Armin. Tracing the Meta-Level: PyPy’s Tracing JIT Compiler. ICOOOLPS '09. doi:10.1145/1565824.1565827.
+^ Timothy Balridge interview.
+^ a b "PyPy – Python compatibility". pypy.org. Retrieved 2016-04-21.
+^ a b the PyPy team (20 June 2014). "PyPy3 2.3.1 – Fulcrum". PyPy blog.
+^ "PyPy v7.2.0: release of 2.7, and 3.6". pypy.org. 16 October 2019.
+^ "PyPy – Python compatibility".
+^ "Running pylons on top of PyPy".
+^ "Running Pyglet on top of PyPy".
+^ "Running Nevow on top of PyPy".
+^ "PyPy runs unmodified django 1.0 beta".
+^ "Introducing the PyPy 1.2 release".
+^ "PyPy 1.5 Released: Catching Up".
+^ a b c Jake Edge (15 May 2013). "A look at the PyPy 2.0 release". LWN.net.
+^ "PyPy 2.0 – Einstein Sandwich".
+^ "PyPy2.7 and PyPy3.5 v5.7 – two in one release".
+^ "PyPy2.7 and PyPy3.5 v6.0 dual release".
+^ "EU Community Research and Development Information Service Entry".
+^ "Eurostars – Aim Higher".
+^ "Project Page on Eureka Network".
+^ "A thank you to the PSF".
+^ "PyPy Status Blog: Oh, and btw: PyPy gets funding through "Eurostars"".
+References[edit]
+.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{list-style-type:none;margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li,.mw-parser-output .refbegin-hanging-indents>dl>dd{margin-left:0;padding-left:3.2em;text-indent:-3.2em;list-style:none}.mw-parser-output .refbegin-100{font-size:100%}
+Davide Ancona, Massimo Ancona, Antonio Cuni, Nicholas D. Matsakis, 2007. RPython: a Step Towards Reconciling Dynamically and Statically Typed OO Languages. In Proc. Dynamic Language Symposium (DLS), 2007. ACM Press.
+Carl Friedrich Bolz, Antonio Cuni, Maciej Fijalkowski, 2009. Tracing the meta-level: PyPy's Tracing JIT Compiler. In Proc. ICOOOLPS, 2009. ACM Press.
+Corbet, Jonathan (11 May 2011). "A brief experiment with PyPy". LWN.net.
+von Eitzen, Chris (21 November 2011). "PyPy 1.7 widens the performance "sweet spot"". The H. Heinz Heise.
+Rose, John (2 December 2011). "A Day with PyPy". Oracle developer blog.
+"Interview Maciej Fijalkowski pypy". Decisionstats blog.
+External links[edit]
+Official website
+v
+t
+e
+Python
+Implementations
+CircuitPython
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+IDE
+Boa
+Eric Python IDE
+IDLE
+PyCharm
+PyDev
+SPE
+Ninja-IDE
+more...
+Topics
+WSGI
+software (list)
+Python Software Foundation
+PyCon
